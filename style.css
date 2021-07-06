@@ -3,15 +3,15 @@ body{
     margin: 0;
 }
 h1{
-   font-size: 60px;
+   font-size: 50px;
 }
 h2{
-    font-size:xx-large;
+   font-size: 40px;
 }
 .majenta-color{
     color: rgb(75, 45, 209);
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 140px;
 }
@@ -38,4 +38,32 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experience-item{
+    width: 40%;
+    padding: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    
+}
+
+#web-dev-experience{
+    border-left: 7px solid;
+    border-image: linear-gradient(green,yellow );
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+}
+#full-stack-experience{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan );
+    border-image-slice: 1;
 }
